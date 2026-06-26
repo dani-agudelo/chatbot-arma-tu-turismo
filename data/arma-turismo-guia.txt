@@ -1,0 +1,307 @@
+# Guía turística de Santiago de Arma (Aguadas, Caldas, Colombia)
+# Documento de referencia para Indi-Bot — priorizar solo hechos de este texto.
+# Fuentes consultadas: Wikipedia (Arma Caldas), Red Turística de Pueblos Patrimonio (Aguadas),
+# material cultural de Aguadas, datos del sitio Arma Tu Turismo.
+
+================================================================================
+1. UBICACIÓN Y DATOS GENERALES
+================================================================================
+
+Santiago de Arma — también conocido como Arma Viejo — es un centro poblado y corregimiento
+del municipio de Aguadas, en el norte del departamento de Caldas, Colombia.
+
+- Departamento: Caldas
+- Municipio: Aguadas
+- Gentilicio: armeño / armeña
+- Altitud aproximada del centro poblado: 1.390 m s. n. m.
+- Coordenadas aproximadas: 5°36′52″ N, 75°32′22″ O
+- Clima: templado de montaña, propio del paisaje cafetero; puede haber brumas en la zona
+  (Aguadas es conocida como la "ciudad de las brumas").
+
+Límites del corregimiento (referencia):
+- Norte y oriente: vereda Tierra Fría
+- Sur: vereda Salineros
+- Occidente: cabecera municipal de Aguadas
+
+Población (referencia Wikipedia): alrededor de 5.000 habitantes en el área del corregimiento;
+aproximadamente 800 habitan en el casco del centro poblado.
+
+Actividades económicas principales: cultivo de café, flores y cítricos.
+
+================================================================================
+2. HISTORIA
+================================================================================
+
+## Origen prehispánico
+
+Antes de la conquista española, la región fue habitada por pueblos indígenas. Entre las
+tribus vinculadas al territorio de Arma y Aguadas se mencionan los Armados o Cocuyes,
+Paucuras, Pitos, Palenques, Mermitas, Guacos y otras agrupaciones. Jorge Robledo llegó a
+territorios ya explorados donde existían asentamientos indígenas en las sierras entre los
+ríos Buey y Arma.
+
+El nombre "Arma" se relaciona con los indígenas armados que habitaron la región y, según
+tradiciones locales, con el tesoro Pipintá.
+
+## Fundación colonial (1542)
+
+Santiago de Arma fue fundado el 25 de julio de 1542, cincuenta años después del
+descubrimiento de América. Sebastián de Belalcázar encargó al capitán Miguel López Muñoz
+fundar una villa llamada Santiago de Arma en territorios de los aborígenes cuy-cuyes o
+Armas, en un contexto de conflicto con el mariscal Jorge Robledo.
+
+La villa creció por la fertilidad de las tierras y los yacimientos auríferos. Llegó a tener
+cabildo, alcalde mayor, escudo real, encomenderos y desarrollo colonial importante.
+
+## Decadencia y traslado parcial a Rionegro
+
+Hacia 1777 muchas familias abandonaron la ciudad por clima considerado malsano, terreno
+difícil y agotamiento de las minas. Quedó un caserío reducido. Hacia 1783 las autoridades
+ordenaron el traslado de la villa al valle de San Nicolás de Rionegro (Antioquia), llevando
+escudo, títulos, imágenes y archivos. Parte de la comunidad permaneció en Arma aferrada a
+sus tierras y tradiciones.
+
+## Relación con la fundación de Aguadas (1808)
+
+En 1808 la comunidad fundó el municipio de Aguadas como estrategia para defender el
+territorio ante la colonización antioqueña desde el norte. José Narciso Leonín de Estrada y
+Castro, oriundo de Santiago de Arma, participó en esa fundación junto con otros colonos.
+Santiago de Arma quedó como corregimiento de Aguadas.
+
+## Jorge Robledo y el Plan del Oro
+
+Jorge Robledo fue un conquistador español vinculado al descubrimiento y colonización de
+esta región durante el siglo XVI. La historia local lo relaciona con la llegada de los
+primeros pobladores españoles y con la explotación aurífera (Plan del Oro) en el entorno
+del río Arma.
+
+================================================================================
+3. TURISMO RELIGIOSO
+================================================================================
+
+## Parroquia y Santuario de San Antonio de Arma
+
+La devoción a San Antonio de Padua es central en la identidad de Santiago de Arma.
+
+Tradiciones sobre la imagen de San Antonio (existen versiones distintas en fuentes locales):
+- Una tradición indica que la imagen fue traída desde Quito por Jorge Robledo.
+- Otra indica procedencia española, llegada en 1549.
+
+En el Santuario de San Antonio de Arma, según la tradición aguadeña, cada día 13 del mes
+llegan en peregrinación devotos del municipio y de otras partes de la región.
+
+## Promesa de San Antonio y festividades
+
+- 13 de junio: festividad de San Antonio de Padua. Es la celebración religiosa más
+  importante del pueblo. La "Promesa de San Antonio" es una tradición centenaria que
+  atrae fieles de todo el departamento de Caldas.
+- En el calendario cultural de Aguadas también se mencionan las Fiestas de San Antonio
+  de Arma en el mes de junio.
+
+Indi-Bot debe limitarse a lo anterior si preguntan por la Promesa. No afirmar detalles
+específicos de ritos (procesiones, sumergir imágenes en ríos, etc.) si no constan en
+este documento.
+
+## Cristo de la Conquista
+
+Monumento icónico ubicado en la iglesia de San Antonio. Es uno de los atractivos
+religiosos del corregimiento, con vistas panorámicas del pueblo.
+
+## Nuestra Señora del Rosario
+
+La imagen de Nuestra Señora de la Concepción del Rosario tuvo vínculos históricos con
+Arma antes del traslado de reliquias a Rionegro. Es parte del patrimonio religioso de
+la región.
+
+================================================================================
+4. TURISMO DE NATURALEZA Y AVENTURA
+================================================================================
+
+## Río Arma
+
+El Río Arma es uno de los atractivos naturales más visitados. Sus aguas permiten
+refrescarse y disfrutar del entorno montañoso.
+
+En el sector conocido como "Plan del Oro" se forman planicies de arena a orillas del río,
+aptas para:
+- camping
+- pesca
+- paseos de olla (tradición recreativa regional)
+
+Actividades ecoturísticas en el río y alrededores también se ofrecen en el Centro
+Ecoturístico El Oro (ver sección de negocios).
+
+## Petroglifos del Dorado
+
+Testimonio arqueológico de las culturas indígenas Armas y Paucuras. Consisten en piedras
+con grabados e imágenes rupestres. Están en la vereda Salineros, localidad de Santiago
+de Arma.
+
+Acceso (referencia turística local):
+- Se puede llegar en vehículo hasta el casco de Santiago de Arma.
+- Desde allí, el acceso final puede ser a caballo o caminata.
+
+Son patrimonio cultural precolombino de la región.
+
+## Miradores y paisaje cafetero
+
+Los miradores cafeteros ofrecen vistas del paisaje montañoso y cultivos de café típicos
+del norte de Caldas y el Eje Cafetero.
+
+## Cascadas (zona Aguadas–Arma)
+
+En el municipio de Aguadas también se mencionan como atractivos naturales cercanos:
+- Cascada de Pore (caída de más de 80 metros)
+- Cascada de La Chorrera (salto de unos 50 metros)
+
+Están en entornos de reserva natural, aptos para turismo ecológico.
+
+## Piedra del Puente (leyenda local)
+
+Formación rocosa sobre el río Arma que une Antioquia con Caldas. En la tradición oral
+aguadeña se relaciona con el personaje legendario Quiko Quintana ("El Putas de Aguadas").
+
+================================================================================
+5. EVENTOS Y FECHAS IMPORTANTES
+================================================================================
+
+En Santiago de Arma y el municipio de Aguadas:
+
+- 13 de junio: San Antonio de Padua / Promesa de San Antonio
+- 25 de julio: aniversario de la fundación de Santiago de Arma (1542)
+- Diciembre: Novenas navideñas comunitarias
+
+Eventos destacados del municipio de Aguadas (cabecera, cercanos al corregimiento):
+- Junio: Fiestas de San Antonio de Arma
+- Julio: Fiesta patronal de Nuestra Señora del Rosario de Chiquinquirá
+- Agosto: Festival Nacional del Pasillo Colombiano
+- Octubre: Encuentro Nacional de Escritores Aguadeños y Festival Equino
+- Noviembre: Fiestas de la Iraca y Encuentro Nacional de Danzas
+- Diciembre: Fiestas patronales de la Inmaculada Concepción
+
+Mejor época para visitar (referencia sitio turístico): meses relativamente secos
+(diciembre–marzo y julio–agosto), aunque Arma puede visitarse todo el año. Las
+festividades de junio y julio son momentos especiales.
+
+================================================================================
+6. CÓMO LLEGAR
+================================================================================
+
+Desde Manizales:
+- Bus desde el terminal de transportes; duración aproximada: 3 horas.
+- También en vehículo particular por vías del norte de Caldas.
+
+Aguadas (cabecera municipal) está aproximadamente a 3 horas y media de Manizales y
+Medellín, según guías de turismo del Eje Cafetero. Santiago de Arma es el corregimiento
+de ese municipio.
+
+Recomendación: verificar horarios de transporte y rutas vigentes antes de viajar.
+
+================================================================================
+7. NEGOCIOS Y SERVICIOS LOCALES (Arma Tu Turismo)
+================================================================================
+
+## Café Villa Serrana
+- Categoría: gastronomía
+- Descripción: café tradicional con granos de la región; café de origen y repostería casera.
+- Dirección: Calle Principal #15-20
+- Horario: 6:00 AM – 8:00 PM
+- Teléfono: +57 6 123 4567
+
+## Hotel Arma
+- Categoría: alojamiento
+- Descripción: hospedaje con habitaciones cómodas.
+- Dirección: Carrera 5 #8-45
+- Horario: 24 horas
+- Teléfono: +57 3178210677
+
+## Hotel San Miguel
+- Categoría: alojamiento
+- Descripción: hospedaje familiar con vistas; habitaciones cómodas y comida típica.
+- Dirección: Carrera 5 #8-45
+- Horario: 24 horas
+- Teléfono: +57 3207210677
+
+## Fonda Ya Supe Lupe
+- Categoría: fondas y cantinas
+- Descripción: fonda y discoteca.
+- Dirección: Calle 3 #12-30
+- Horario: 11:00 AM – 9:00 PM
+- Teléfono: +57 3178210677
+
+## Centro ecoturístico El Oro
+- Categoría: turismo y aventura
+- Descripción: rafting en el Río Arma y senderismo en los alrededores. Punto favorito
+  para naturaleza y aventura en Santiago de Arma. Ideal para familias y grupos; se
+  recomienda reservar en temporada alta. Llevar ropa cómoda, protector solar y repelente.
+- Dirección: Puente el Oro
+- Horario: 7:00 AM – 5:00 PM
+- Teléfono: +57 3008260698
+
+## Fonda Puente el Oro
+- Categoría: fondas y cantinas
+- Descripción: fonda, restaurante y parador; bebidas típicas, comidas y ambiente local.
+- Dirección: Vía Puente el Oro
+- Horario: 11:00 AM – 10:00 PM
+- Teléfono: +57 6 123 4573
+
+Para horarios, precios y reservas actualizados, contactar directamente a cada negocio.
+
+================================================================================
+8. GASTRONOMÍA TÍPICA
+================================================================================
+
+Platos y productos asociados a la región y al sitio turístico:
+
+- Sancocho armense: caldo con carnes, plátano, yuca y mazorca; plato de reuniones familiares.
+- Arepa de chócolo: arepa dulce de maíz tierno, a menudo con queso y café.
+- Trucha arcoíris: pescado de ríos locales.
+- Café de altura: café cultivado en montañas de la zona, con perfil frutal y cuerpo medio.
+
+Experiencias gastronómicas mencionadas en el destino:
+- Tour gastronómico por sabores tradicionales
+- Taller de cocina tradicional
+- Ruta del café (finca a taza)
+
+================================================================================
+9. PREGUNTAS FRECUENTES (respuestas sugeridas para Indi-Bot)
+================================================================================
+
+P: ¿Qué lugares no me puedo perder?
+R: Río Arma, Petroglifos del Dorado, la experiencia religiosa de San Antonio (especialmente
+   en junio), miradores cafeteros y, si buscas aventura, el Centro ecoturístico El Oro.
+
+P: ¿Es seguro?
+R: Arma es un pueblo tranquilo y acogedor con visitantes. Tomar precauciones básicas
+   de viaje.
+
+P: ¿Actividades con niños?
+R: Río, plaza principal, fincas cafeteras y actividades culturales en festividades.
+
+P: ¿Turismo ecológico?
+R: Sí: senderismo, avistamiento de aves, rafting en el Río Arma (Centro ecoturístico El Oro),
+   turismo rural y paisajes naturales.
+
+P: ¿Qué empacar?
+R: Ropa cómoda, abrigo ligero para la noche, zapatos para caminar, protector solar,
+   repelente, cámara.
+
+P: ¿Qué hacer en Arma?
+R: Conocer historia colonial e indígena, turismo religioso (San Antonio), bañarse o
+   descansar en el Río Arma, visitar petroglifos, probar café y comida típica, alojarse
+   en hoteles locales y hacer rafting o senderismo con operadores del corregimiento.
+
+================================================================================
+10. INSTRUCCIONES PARA EL CHATBOT
+================================================================================
+
+- Responder solo con información contenida en este documento.
+- Si preguntan algo no cubierto aquí, decir: "No tengo esa información en los documentos
+  de Arma. Te sugiero contactar directamente al lugar o revisar la sección de negocios
+  en la página."
+- No inventar procesiones, fechas, horarios o precios no listados.
+- Los teléfonos y direcciones de negocios pueden cambiar; invitar a confirmar por teléfono.
+
+================================================================================
+FIN DEL DOCUMENTO
+================================================================================

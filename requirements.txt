@@ -1,0 +1,11 @@
+llama-index
+llama-index-llms-nvidia
+llama-index-embeddings-nvidia
+llama-index-vector-stores-chroma
+llama-index-readers-file
+pypdf
+chromadb
+fastapi
+uvicorn
+python-dotenv
+python-multipart
