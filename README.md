@@ -2,7 +2,7 @@
 
 API **FastAPI** + **LlamaIndex** + **ChromaDB** para el chatbot turístico de Santiago de Arma.
 
-- **LLM y embeddings:** [NVIDIA Build](https://build.nvidia.com/) (`NVIDIA_API_KEY` en `.env` — no en el panel admin).
+- **LLM y embeddings:** [NVIDIA Build](https://build.nvidia.com/). El modelo, el modelo de embeddings y la clave se pueden guardar en el admin; `NVIDIA_API_KEY` en `.env` queda como respaldo si el panel no tiene clave.
 - **Modo reglas** (sin IA): lo gestiona Nest con FAQs; este servicio solo se usa en modo `rag`.
 
 ## Requisitos

@@ -7,7 +7,10 @@ import shutil
 from contextlib import asynccontextmanager
 from pathlib import Path
 
-from fastapi import Depends, FastAPI, File, HTTPException, UploadFile
+from typing import Annotated
+
+from fastapi import Depends, FastAPI, File, Header, HTTPException, UploadFile
+from pydantic import BaseModel, Field
 from fastapi.middleware.cors import CORSMiddleware
 from starlette.concurrency import run_in_threadpool
 
@@ -23,7 +26,18 @@ from api.schemas import (
     UploadResponse,
 )
 from carga_documentos.loader import list_document_files
-from config import CHROMA_COLLECTION, DATA_DIR, configure_settings, get_cors_origins
+from config import (
+    CHROMA_COLLECTION,
+    DATA_DIR,
+    apply_runtime_settings,
+    configure_settings,
+    get_cors_origins,
+    get_embed_model,
+    get_llm_model,
+)
+from generation.engine_factory import reset_shared_retriever
+from generation.session_store import clear_all_sessions
+from storage.index_cache import reset_shared_index
 from logging_config import PUBLIC_ERROR_MESSAGE, setup_logging
 from services.chat_service import ChatService
 from services.ingest_service import IngestService
@@ -37,6 +51,48 @@ OPENAPI_TAGS = [
 ]
 
 ALLOWED_UPLOAD_SUFFIXES = {".pdf", ".txt", ".md"}
+
+
+class RuntimeSettingsBody(BaseModel):
+    llm_model: str = Field(min_length=1, max_length=128)
+    embed_model: str = Field(min_length=1, max_length=128)
+    nvidia_api_key: str | None = Field(default=None, max_length=512)
+    clear_nvidia_api_key: bool = False
+
+
+def _apply_and_reset(
+    *,
+    llm_model: str | None = None,
+    embed_model: str | None = None,
+    nvidia_api_key: str | None = None,
+    clear_nvidia_api_key: bool = False,
+) -> dict[str, object]:
+    result = apply_runtime_settings(
+        llm_model=llm_model,
+        embed_model=embed_model,
+        nvidia_api_key=nvidia_api_key,
+        clear_nvidia_api_key=clear_nvidia_api_key,
+    )
+    if result.get("applied"):
+        reset_shared_index()
+        reset_shared_retriever()
+        clear_all_sessions()
+    return result
+
+
+def apply_request_runtime(
+    _: Annotated[None, Depends(verify_internal_api_key)],
+    x_llm_model: Annotated[str | None, Header()] = None,
+    x_embed_model: Annotated[str | None, Header()] = None,
+    x_nvidia_api_key: Annotated[str | None, Header()] = None,
+) -> None:
+    if not any((x_llm_model, x_embed_model, x_nvidia_api_key)):
+        return
+    _apply_and_reset(
+        llm_model=x_llm_model,
+        embed_model=x_embed_model,
+        nvidia_api_key=x_nvidia_api_key,
+    )
 
 
 @asynccontextmanager
@@ -75,7 +131,26 @@ app.add_middleware(
 
 @app.get("/health", tags=["health"])
 async def health_check() -> dict[str, str]:
-    return {"status": "ok", "service": "chatbot-arma"}
+    return {
+        "status": "ok",
+        "service": "chatbot-arma",
+        "llm_model": get_llm_model(),
+        "embed_model": get_embed_model(),
+    }
+
+
+@app.post(
+    "/settings",
+    tags=["health"],
+    dependencies=[Depends(verify_internal_api_key)],
+)
+async def update_runtime_settings(body: RuntimeSettingsBody) -> dict[str, object]:
+    return _apply_and_reset(
+        llm_model=body.llm_model,
+        embed_model=body.embed_model,
+        nvidia_api_key=body.nvidia_api_key,
+        clear_nvidia_api_key=body.clear_nvidia_api_key,
+    )
 
 
 def _ingest_sync(service: IngestService) -> IngestResponse:
@@ -104,7 +179,10 @@ async def list_documents() -> DocumentsListResponse:
     tags=["carga_documentos"],
     dependencies=[Depends(verify_internal_api_key)],
 )
-async def upload_document(file: UploadFile = File(...)) -> UploadResponse:
+async def upload_document(
+    file: UploadFile = File(...),
+    _: None = Depends(apply_request_runtime),
+) -> UploadResponse:
     if not file.filename:
         raise HTTPException(status_code=400, detail="Nombre de archivo requerido.")
 
@@ -136,6 +214,7 @@ async def upload_document(file: UploadFile = File(...)) -> UploadResponse:
     dependencies=[Depends(verify_internal_api_key)],
 )
 async def ingest_documents(
+    _: None = Depends(apply_request_runtime),
     service: IngestService = Depends(get_ingest_service),
 ) -> IngestResponse:
     try:
@@ -147,9 +226,15 @@ async def ingest_documents(
         raise HTTPException(status_code=500, detail=PUBLIC_ERROR_MESSAGE) from exc
 
 
-@app.post("/chat", response_model=ChatResponse, tags=["chat"])
+@app.post(
+    "/chat",
+    response_model=ChatResponse,
+    tags=["chat"],
+    dependencies=[Depends(verify_internal_api_key)],
+)
 async def chat(
     request: ChatRequest,
+    _: None = Depends(apply_request_runtime),
     service: ChatService = Depends(get_chat_service),
 ) -> ChatResponse:
     try:
